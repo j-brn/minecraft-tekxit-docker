@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ARG VERSION="0.972"
+ARG VERSION="0.13.2"
 
 # The user that runs the minecraft server and own all the data
 # you may want to change this to match your local user
