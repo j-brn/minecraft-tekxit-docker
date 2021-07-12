@@ -17,7 +17,7 @@ ENV JAVA_ADDITIONAL_ARGS=""
 RUN apk add p7zip curl
 
 # add rcon-cli to be able to interact with the console using rcon
-RUN curl -sSL https://github.com/itzg/rcon-cli/releases/download/1.4.7/rcon-cli_1.4.7_linux_amd64.tar.gz -o rcon-cli.tar.gz \
+RUN curl -sSL https://github.com/itzg/rcon-cli/releases/download/1.4.8/rcon-cli_1.4.8_linux_amd64.tar.gz -o rcon-cli.tar.gz \
     && tar -xzf rcon-cli.tar.gz rcon-cli \
     && mv rcon-cli /usr/local/bin \
     && rm rcon-cli.tar.gz
